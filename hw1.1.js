@@ -7,15 +7,14 @@ alert(a+b+c + ', ' + a*b*c);
 alert();
 
 //Task 2
-let sal = +prompt("Enter your sallary");
-let cred = +prompt("Enter your credit");
-let uti = +prompt("Enter your utilities");
-    if(sal<cred){
-        alert("You haven't enough money");}
-    else if(sal<uti){
-            alert("You haven't enough money");}
-    else{
-    alert(sal-cred-uti);}
+let a=+prompt("Enter your income");
+let b=+prompt("Enter your credit");
+let c=+prompt("Enter your utilities");
+if(a<b+c){
+    alert("You haven't enough money");
+}
+else{
+alert(a-b-c);}  
 //Task 3
 let d1 = +prompt("Enter your 1st diagonal");
 let d2 = +prompt("Enter your 2nd diagonal");
@@ -54,10 +53,11 @@ else if(h<0){
     alert("Incorect");}
 else{
     alert(0.5*a*h);}
-   */
-    var myArray = ['один', 'два', 'три'];
-    myArray.reverse();
-    
-    console.log(myArray) // ['три', 'два', 'один']
+  
+//TASK10
+let num = +prompt('Enter number');
+arr=[];
+arr=(('' + num).split("").reverse());
+alert(arr) */
 
  
